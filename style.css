@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding-top: 200px;
+    height: 100vh;
+    color: aliceblue;
+    background: linear-gradient(180deg, #000000 0%, #2E54B6 100%);
+  }
+  
+  .container {
+    width: 20%;
+    margin: auto;
+  }
+  
+  .container > * {
+    margin-bottom: 25px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 11px 0 11px 22px;
+    border-radius: 20px;
+  }
+  
+  .nameError {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FA6F6F;
+  }
+  
+  .role > label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  .role > * {
+    margin-bottom: 10px;
+  }
+  
+  .enterbTn {
+    width: 100%;
+    padding: 11px 81px;
+    background-color: #FFD600;
+    border: none;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  
+  .radioError {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FA6F6F;  
+  }
+  
+  .autorizatedCorrect {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    color: #72FA6F;
+  }
